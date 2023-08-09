@@ -17,4 +17,4 @@ def remove_letter_s(string)
    puts string.tr('Ss', '')
 end
 
-remove_letter_s("MisSiSsippi")
+remove_letter_s("Mis SiS sippi")
