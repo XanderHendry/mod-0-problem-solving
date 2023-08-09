@@ -12,6 +12,7 @@
 #   Print the result
 # End
 
+# Solution
 def remove_letter_s(string)
    puts string.tr('Ss', '')
 end
