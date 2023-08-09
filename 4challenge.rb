@@ -11,7 +11,8 @@
 hobbies = ["drawing", "biking", "cars", "gardening", "sports"]
 
 def hobbying(hobby)
-    puts hobby.select { |ing| ing.end_with?("ing") }
+    new_hobbies = hobby.select { |ing| ing.end_with?("ing") }
+    print new_hobbies
 end
 
 hobbying(hobbies)
