@@ -4,4 +4,7 @@
 # For each word in the array, convert the upercase letters to lowercase.
 # Print the results
 # End
- 
+
+mixed_strings = ["HeLlO", "gOoDbYe", "YeLlOw", "GrEeN", "bLaCk"]
+
+ mixed_strings.each { |word| puts word.downcase }
