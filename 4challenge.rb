@@ -7,3 +7,11 @@
 #   Print any word that ends in "ing"
 # End
 
+# Solution -
+hobbies = ["drawing", "biking", "cars", "gardening", "sports"]
+
+def hobbying(hobby)
+    puts hobby.select { |ing| ing.end_with?("ing") }
+end
+
+hobbying(hobbies)
