@@ -6,3 +6,11 @@
 #   Print the words with exactly 4 numbers.
 # End
 
+# Solution -
+words = ["Only", "Print", "Four", "Letter", "Words"]
+
+def four_letter_word(arry)
+   puts arry.select { |char| char.length == 4 }
+end
+
+four_letter_word(words)
